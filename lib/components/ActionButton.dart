@@ -46,7 +46,7 @@ class _ActionButtonState extends State<ActionButton> {
           children: <Widget>[
             _displayIcon(),
             Text(
-              this.widget.text,
+              'this.widget.text',
               style: TextStyle(fontSize: 12),
             ),
           ],
