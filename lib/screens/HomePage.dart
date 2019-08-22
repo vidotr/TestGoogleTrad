@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:google_translate/components/ActionButton.dart';
 import 'package:google_translate/components/ChooseLanguage.dart';
+import 'package:google_translate/components/ListTranslate.dart';
+import 'package:google_translate/components/TranslateText.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key, this.title}) : super(key: key);
@@ -22,6 +25,9 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         children: <Widget>[
           ChooseLanguage(),
+          TranslateText(),
+          ActionButton(),
+          ListTranslate()
         ]
       ),
     );
